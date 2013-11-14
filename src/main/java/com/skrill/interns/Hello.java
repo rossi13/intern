@@ -8,7 +8,7 @@ public class Hello {
         byte [] name = new byte [256];
         try {
             System.in.read(name);
-            System.out.println("Hello, " + new String(name));
+            System.out.println("Hello, dear " + new String(name));
         } catch (IOException e) {
             System.out.println("cannot read input, " + e.getMessage());
         }
